@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "data": {
+    "user": {
+      "id": "usr_101",
+      "name": "Alex Mercer",
+      "username": "alexm",
+      "email": "alex@example.com",
+      "profilePictureUrl": "https://example.com/avatar.jpg"
+    },
+    "onboardingCompleted": true
+  }
+}

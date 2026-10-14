@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "data": {
+    "xp": 1899,
+    "level": 12,
+    "xpIntoLevel": 189,
+    "xpForNextLevel": 300,
+    "currentStreak": 4,
+    "longestStreak": 10,
+    "lastActiveAt": "2026-10-09T10:00:00.000Z",
+    "activeToday": true
+  }
+}

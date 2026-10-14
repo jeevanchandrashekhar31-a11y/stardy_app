@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "data": {
+    "items": [
+      {
+        "id": "cert_01",
+        "courseId": "crs_flutter",
+        "courseTitle": "Flutter Fundamentals",
+        "title": "Flutter Developer Certificate",
+        "certificateUrl": "https://example.com/certs/cert_01.pdf",
+        "issuedAt": "2026-05-10T14:30:00Z"
+      }
+    ],
+    "nextCursor": null
+  }
+}

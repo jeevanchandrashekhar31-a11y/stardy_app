@@ -1,0 +1,44 @@
+{
+  "success": true,
+  "data": {
+    "id": "crs_flutter",
+    "title": "Flutter Fundamentals",
+    "category": "TECH",
+    "difficulty": "BEGINNER",
+    "thumbnailUrl": "https://example.com/flutter.jpg",
+    "ratingAvg": 4.7,
+    "ratingCount": 240,
+    "durationSeconds": 14400,
+    "moduleCount": 2,
+    "progressPercent": 45,
+    "description": "Master Flutter and build modern cross-platform mobile applications.",
+    "createdAt": "2026-01-15T08:00:00Z",
+    "modules": [
+      {
+        "id": "mod_01",
+        "title": "Introduction to Widgets",
+        "order": 1,
+        "section": "Basics",
+        "contentType": "VIDEO",
+        "durationSeconds": 600,
+        "isCompleted": true
+      },
+      {
+        "id": "mod_02",
+        "title": "Stateful vs Stateless",
+        "order": 2,
+        "section": "Basics",
+        "contentType": "VIDEO",
+        "durationSeconds": 720,
+        "isCompleted": false
+      }
+    ],
+    "assignments": [
+      {
+        "id": "asg_01",
+        "title": "Build a Counter App",
+        "dueAt": "2026-06-01T23:59:59Z"
+      }
+    ]
+  }
+}

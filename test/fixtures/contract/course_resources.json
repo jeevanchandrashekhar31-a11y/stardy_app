@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "data": {
+    "items": [
+      {
+        "id": "res_01",
+        "title": "Flutter Official Documentation",
+        "author": "Flutter Team",
+        "type": "LINK",
+        "url": "https://flutter.dev/docs"
+      },
+      {
+        "id": "res_02",
+        "title": "Dart Cheatsheet PDF",
+        "author": "STARDY",
+        "type": "FILE",
+        "url": "https://example.com/downloads/cheatsheet.pdf"
+      }
+    ]
+  }
+}

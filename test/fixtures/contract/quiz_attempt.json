@@ -1,0 +1,19 @@
+{
+  "success": true,
+  "data": {
+    "attemptId": "att_mod_01",
+    "startedAt": "2026-10-12T10:00:00Z",
+    "questions": [
+      {
+        "id": "q_01",
+        "question": "What is Flutter?",
+        "options": ["UI Toolkit", "Database", "Operating System", "Web Server"]
+      },
+      {
+        "id": "q_02",
+        "question": "Which programming language does Flutter use?",
+        "options": ["Dart", "Python", "Kotlin", "Swift"]
+      }
+    ]
+  }
+}

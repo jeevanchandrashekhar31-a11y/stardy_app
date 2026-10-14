@@ -1,0 +1,19 @@
+{
+  "success": true,
+  "data": {
+    "items": [
+      {
+        "id": "opp_101",
+        "title": "Flutter Developer Intern",
+        "company": "TechCorp",
+        "location": "Remote",
+        "type": "INTERNSHIP",
+        "category": "TECH",
+        "isPaid": true,
+        "logoUrl": "https://example.com/logo.png",
+        "hasApplied": false
+      }
+    ],
+    "nextCursor": null
+  }
+}

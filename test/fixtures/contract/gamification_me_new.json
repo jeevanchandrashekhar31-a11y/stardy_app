@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "data": {
+    "xp": 0,
+    "level": 1,
+    "xpIntoLevel": 0,
+    "xpForNextLevel": 100,
+    "currentStreak": 0,
+    "longestStreak": 0,
+    "lastActiveAt": null,
+    "activeToday": false
+  }
+}

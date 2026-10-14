@@ -1,0 +1,26 @@
+{
+  "success": true,
+  "data": {
+    "id": "cp_101",
+    "title": "Full Stack Web Development",
+    "description": "Master modern full-stack development from frontend to backend.",
+    "skills": [
+      "JavaScript",
+      "Dart",
+      "Flutter",
+      "Node.js"
+    ],
+    "enrolled": true,
+    "progress": 45,
+    "courses": [
+      {
+        "courseId": "c_1",
+        "title": "Intro to Web",
+        "difficulty": "BEGINNER",
+        "thumbnailUrl": "https://cdn.stardy.ai/courses/web101.png",
+        "order": 1,
+        "progressPercent": 100
+      }
+    ]
+  }
+}

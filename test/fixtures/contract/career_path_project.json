@@ -1,0 +1,24 @@
+{
+  "success": true,
+  "data": {
+    "eligible": true,
+    "progress": 60,
+    "project": {
+      "id": "proj_101",
+      "title": "Portfolio Web Application",
+      "description": "Build and deploy a responsive personal portfolio application.",
+      "requirements": [
+        "Responsive layout",
+        "Accessible markup"
+      ],
+      "deliverables": [
+        "GitHub repository link",
+        "Live deployment URL"
+      ],
+      "stretchGoals": [
+        "Dark mode toggle"
+      ],
+      "submission": null
+    }
+  }
+}

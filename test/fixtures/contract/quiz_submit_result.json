@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "data": {
+    "score": 100,
+    "passed": true,
+    "correctCount": 2,
+    "totalCount": 2,
+    "gamification": {
+      "xpAwarded": 50,
+      "xp": 250,
+      "level": 2,
+      "leveledUp": true,
+      "newLevel": 2,
+      "badgesUnlocked": [
+        {
+          "code": "FIRST_LAUNCH",
+          "name": "First Launch",
+          "iconUrl": "https://example.com/badge1.png"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "success": true,
+  "data": {
+    "questions": [
+      {
+        "id": "q1",
+        "question": "What is the primary purpose of a Product Requirements Document (PRD)?",
+        "options": [
+          "To write the production backend code",
+          "To communicate what product is being built and why to engineering and design",
+          "To create marketing ads for social media",
+          "To audit server performance logs"
+        ]
+      },
+      {
+        "id": "q2",
+        "question": "Which metric measures the percentage of users who stop using a product?",
+        "options": [
+          "Customer Acquisition Cost",
+          "Net Promoter Score",
+          "Churn Rate",
+          "Monthly Active Users"
+        ]
+      }
+    ]
+  }
+}

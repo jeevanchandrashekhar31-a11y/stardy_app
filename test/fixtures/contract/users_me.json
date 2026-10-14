@@ -1,0 +1,18 @@
+{
+  "success": true,
+  "data": {
+    "id": "user_123",
+    "name": "Sai",
+    "username": "@sai_12",
+    "email": "sai@example.com",
+    "profilePictureUrl": null,
+    "createdAt": "2026-10-09T10:00:00.000Z",
+    "careerPaths": [
+      {
+        "id": "cp_1",
+        "title": "UI UX Design",
+        "progress": 25
+      }
+    ]
+  }
+}

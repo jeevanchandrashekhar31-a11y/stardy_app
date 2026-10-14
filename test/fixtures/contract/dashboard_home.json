@@ -1,0 +1,48 @@
+{
+  "success": true,
+  "data": {
+    "greetingName": "Alex",
+    "continueCourse": {
+      "courseId": "crs_flutter",
+      "title": "Flutter Fundamentals",
+      "thumbnailUrl": "https://example.com/flutter_thumb.jpg",
+      "progressPercent": 45,
+      "nextModuleId": "mod_02"
+    },
+    "recommended": [
+      {
+        "id": "crs_dart",
+        "title": "Dart In-Depth",
+        "category": "TECH",
+        "difficulty": "BEGINNER",
+        "thumbnailUrl": "https://example.com/dart.jpg",
+        "ratingAvg": 4.8,
+        "ratingCount": 120,
+        "durationSeconds": 7200,
+        "moduleCount": 8,
+        "progressPercent": null
+      }
+    ],
+    "newCourses": [
+      {
+        "id": "crs_design",
+        "title": "Figma UI/UX Masterclass",
+        "category": "CREATIVE",
+        "difficulty": "INTERMEDIATE",
+        "thumbnailUrl": "https://example.com/figma.jpg",
+        "ratingAvg": 4.9,
+        "ratingCount": 85,
+        "durationSeconds": 10800,
+        "moduleCount": 12,
+        "progressPercent": null
+      }
+    ],
+    "careerPaths": [
+      {
+        "id": "cp_flutter",
+        "title": "Mobile App Engineer",
+        "progress": 35
+      }
+    ]
+  }
+}

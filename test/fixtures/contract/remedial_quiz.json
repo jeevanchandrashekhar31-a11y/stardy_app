@@ -1,0 +1,22 @@
+{
+  "success": true,
+  "data": {
+    "remedialQuizId": "rem_quiz_01",
+    "status": "IN_PROGRESS",
+    "weakConcepts": ["State Management", "Async Programming"],
+    "questions": [
+      {
+        "id": "rq_01",
+        "question": "What happens when setState is called?",
+        "options": [
+          "It marks the widget dirty and schedules a build",
+          "It terminates the app",
+          "It clears the cache",
+          "It reboots the device"
+        ],
+        "correctIndex": 0,
+        "explanation": "setState schedules a rebuild of the widget subtree."
+      }
+    ]
+  }
+}

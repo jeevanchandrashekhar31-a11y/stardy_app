@@ -1,0 +1,4 @@
+* text=auto
+
+# Enforce LF for dart files
+*.dart text eol=lf

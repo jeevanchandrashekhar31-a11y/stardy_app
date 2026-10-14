@@ -1,0 +1,26 @@
+{
+  "success": true,
+  "data": {
+    "items": [
+      {
+        "kind": "QUIZ",
+        "refId": "atm_101",
+        "title": "Dart Syntax Quiz",
+        "courseTitle": "Dart In-Depth",
+        "percentage": 95,
+        "letter": "A+",
+        "submittedAt": "2026-05-02T10:00:00Z"
+      },
+      {
+        "kind": "ASSIGNMENT",
+        "refId": "sub_201",
+        "title": "Flutter UI Layout",
+        "courseTitle": "Flutter Fundamentals",
+        "percentage": 88,
+        "letter": "A",
+        "submittedAt": "2026-05-05T15:30:00Z"
+      }
+    ],
+    "nextCursor": null
+  }
+}

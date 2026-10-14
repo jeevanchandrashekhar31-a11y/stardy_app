@@ -1,0 +1,25 @@
+{
+  "success": true,
+  "data": {
+    "items": [
+      {
+        "id": "bdg_01",
+        "code": "FIRST_LAUNCH",
+        "name": "First Launch",
+        "description": "Complete your first module.",
+        "iconUrl": "https://example.com/badge1.png",
+        "earned": true,
+        "earnedAt": "2026-05-01T12:00:00Z"
+      },
+      {
+        "id": "bdg_02",
+        "code": "EARLY_BIRD",
+        "name": "Early Bird",
+        "description": "Complete a module within 24h of signup.",
+        "iconUrl": "https://example.com/badge2.png",
+        "earned": false,
+        "earnedAt": null
+      }
+    ]
+  }
+}

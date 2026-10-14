@@ -1,0 +1,19 @@
+{
+  "success": true,
+  "data": {
+    "submissionId": "sub_101",
+    "score": 85,
+    "passed": true,
+    "correctCount": 4,
+    "totalCount": 5,
+    "remedialEligible": false,
+    "gamification": {
+      "xpAwarded": 50,
+      "xp": 350,
+      "level": 3,
+      "leveledUp": false,
+      "newLevel": null,
+      "badgesUnlocked": []
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "items": [
+    {"id": "1", "name": "Test item 1"}
+  ],
+  "nextCursor": "cursor_123"
+}

@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "data": {
+    "id": "opp_101",
+    "title": "Flutter Developer Intern",
+    "company": "TechCorp",
+    "location": "Remote",
+    "type": "INTERNSHIP",
+    "category": "TECH",
+    "isPaid": true,
+    "logoUrl": "https://example.com/logo.png",
+    "hasApplied": false,
+    "description": "Join our mobile team to develop cutting-edge Flutter applications.",
+    "applyUrl": "https://techcorp.example.com/apply"
+  }
+}

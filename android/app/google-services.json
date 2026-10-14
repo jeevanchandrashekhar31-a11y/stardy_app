@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "1013989559088",
+    "project_id": "stardy-ai-e555b",
+    "storage_bucket": "stardy-ai-e555b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1013989559088:android:dae08b16011d2cdb9916f5",
+        "android_client_info": {
+          "package_name": "com.stardyai.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1013989559088-iugovndhjov8oclpucolb3qnp8k4ed3l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.stardyai.app",
+            "certificate_hash": "fb4f6af03663906dfa6bef06acf270f6f3a1dde3"
+          }
+        },
+        {
+          "client_id": "1013989559088-npo12h1tb5qvlagkkjbsc1lh16rlblgr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD62H7ohO52rqj7h4n0ioiSEKPOjkMmaoM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1013989559088-npo12h1tb5qvlagkkjbsc1lh16rlblgr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1013989559088-ab66fev3129v93rg81d8afv6kdd9btpd.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.stardyApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

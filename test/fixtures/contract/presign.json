@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "data": {
+    "uploadUrl": "https://storage.googleapis.com/test-bucket/assignments/sub_101.zip",
+    "method": "PUT",
+    "headers": {
+      "Content-Type": "application/zip"
+    },
+    "objectKey": "assignments/usr_101/asg_01/sub_101.zip",
+    "expiresAt": "2026-10-12T12:00:00Z",
+    "maxBytes": 10485760
+  }
+}

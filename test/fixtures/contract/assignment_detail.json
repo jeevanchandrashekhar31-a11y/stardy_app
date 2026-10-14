@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "data": {
+    "id": "asg_01",
+    "courseId": "crs_flutter",
+    "title": "Build a Counter App",
+    "instructions": "Create a counter application with increment, decrement, and reset functionality.",
+    "topics": ["StatefulWidget", "setState", "FloatingActionButton"],
+    "dueAt": "2026-06-01T23:59:59Z",
+    "fileSubmission": null,
+    "quizSubmission": null
+  }
+}

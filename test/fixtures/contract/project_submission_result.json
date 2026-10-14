@@ -1,0 +1,15 @@
+{
+  "success": true,
+  "data": {
+    "status": "PENDING_REVIEW",
+    "submittedAt": "2026-10-13T10:00:00Z",
+    "gamification": {
+      "xpAwarded": 100,
+      "xp": 450,
+      "level": 3,
+      "leveledUp": false,
+      "newLevel": null,
+      "badgesUnlocked": []
+    }
+  }
+}

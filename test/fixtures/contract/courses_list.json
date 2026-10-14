@@ -1,0 +1,20 @@
+{
+  "success": true,
+  "data": {
+    "items": [
+      {
+        "id": "crs_flutter",
+        "title": "Flutter Fundamentals",
+        "category": "TECH",
+        "difficulty": "BEGINNER",
+        "thumbnailUrl": "https://example.com/flutter.jpg",
+        "ratingAvg": 4.7,
+        "ratingCount": 240,
+        "durationSeconds": 14400,
+        "moduleCount": 10,
+        "progressPercent": 45
+      }
+    ],
+    "nextCursor": null
+  }
+}
