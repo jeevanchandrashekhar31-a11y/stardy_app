@@ -140,6 +140,7 @@ class _SubscriptionPageState extends State<SubscriptionPage> {
                       _PlanCard(
                         plan: widget.plans[i],
                         selected: i == _selected,
+                        single: widget.plans.length == 1,
                         onTap: () => setState(() => _selected = i),
                       ),
                     ],
@@ -339,11 +340,16 @@ class _PlanCard extends StatelessWidget {
     required this.plan,
     required this.selected,
     required this.onTap,
+    this.single = false,
   });
 
   final SubscriptionPlan plan;
   final bool selected;
   final VoidCallback onTap;
+
+  /// With only one plan there is nothing to choose, so the selection circle
+  /// is hidden and the price is shown larger.
+  final bool single;
 
   @override
   Widget build(BuildContext context) {
@@ -365,24 +371,27 @@ class _PlanCard extends StatelessWidget {
           ),
           child: Row(
             children: [
-              Container(
-                width: 22,
-                height: 22,
-                decoration: BoxDecoration(
-                  shape: BoxShape.circle,
-                  border: Border.all(color: fg, width: 2),
+              if (!single) ...[
+                Container(
+                  width: 22,
+                  height: 22,
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
+                    border: Border.all(color: fg, width: 2),
+                  ),
+                  alignment: Alignment.center,
+                  child: selected
+                      ? Container(
+                          width: 10,
+                          height: 10,
+                          decoration: BoxDecoration(
+                              shape: BoxShape.circle, color: fg),
+                        )
+                      : null,
                 ),
-                alignment: Alignment.center,
-                child: selected
-                    ? Container(
-                        width: 10,
-                        height: 10,
-                        decoration: BoxDecoration(
-                            shape: BoxShape.circle, color: fg),
-                      )
-                    : null,
-              ),
-              const SizedBox(width: 14),
+                const SizedBox(width: 14),
+
+              ],
               Expanded(
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
@@ -407,7 +416,7 @@ class _PlanCard extends StatelessWidget {
                   Text(
                     plan.price,
                     style: GoogleFonts.mukta(
-                      fontSize: 22,
+                      fontSize: single ? 34 : 22,
                       height: 1,
                       fontWeight: FontWeight.w800,
                       color: fg,
