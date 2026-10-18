@@ -55,8 +55,8 @@ class SubscriptionBenefit {
 }
 
 /// Subscription screen. Plans and benefits follow the product spec:
-/// Monthly ₹499, Yearly ₹10,788 (₹899 / month); both unlock all courses and
-/// add 1-2-1 mentor access.
+/// a single Monthly plan at ₹499 that unlocks all courses and adds 1-2-1
+/// mentor access.
 class SubscriptionPage extends StatefulWidget {
   const SubscriptionPage({
     super.key,
@@ -89,15 +89,6 @@ class SubscriptionPage extends StatefulWidget {
       subtitle: 'Billed monthly',
       ctaLabel: 'Get Pro, ₹499 / month',
       billingNote: 'Billed ₹499 monthly.',
-    ),
-    SubscriptionPlan(
-      id: 'pro_yearly',
-      name: 'Yearly',
-      price: '₹10,788',
-      priceNote: '₹899 / month',
-      subtitle: 'Billed yearly',
-      ctaLabel: 'Get Pro, ₹10,788 / year',
-      billingNote: 'Billed ₹10,788 yearly.',
     ),
   ];
 
