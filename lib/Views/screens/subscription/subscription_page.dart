@@ -28,22 +28,22 @@ class SubscriptionPlan {
   final String id;
   final String name;
 
-  /// Main price text, e.g. `$35.99`.
+  /// Main price text, e.g. `₹499`.
   final String price;
 
-  /// Small text under the price, e.g. `$3.00 / month`.
+  /// Small text under the price, e.g. `per month`.
   final String priceNote;
 
-  /// Small text under the plan name, e.g. `Save 40%`.
+  /// Small text under the plan name, e.g. `Billed monthly`.
   final String subtitle;
 
-  /// Button text while this plan is selected, e.g. `Get Pro, $35.99 / year`.
+  /// Button text while this plan is selected, e.g. `Get Pro, ₹499 / month`.
   final String ctaLabel;
 
-  /// Line under the button, e.g. `Cancel anytime. Billed $35.99 yearly.`
+  /// Line under the button, e.g. `Billed ₹499 monthly.`
   final String billingNote;
 
-  /// Optional tag on the card, e.g. `BEST VALUE`.
+  /// Optional tag on the card. None of the current plans use one.
   final String? badge;
 }
 
@@ -54,7 +54,9 @@ class SubscriptionBenefit {
   final String text;
 }
 
-/// Subscription screen. Prices and benefits below are placeholders.
+/// Subscription screen. Plans and benefits follow the product spec:
+/// Monthly ₹499, Yearly ₹10,788 (₹899 / month); both unlock all courses and
+/// add 1-2-1 mentor access.
 class SubscriptionPage extends StatefulWidget {
   const SubscriptionPage({
     super.key,
@@ -80,32 +82,28 @@ class SubscriptionPage extends StatefulWidget {
 
   static const defaultPlans = [
     SubscriptionPlan(
-      id: 'pro_yearly',
-      name: 'Yearly',
-      price: r'$35.99',
-      priceNote: r'$3.00 / month',
-      subtitle: 'Save 40%',
-      ctaLabel: r'Get Pro, $35.99 / year',
-      billingNote: r'Cancel anytime. Billed $35.99 yearly.',
-      badge: 'BEST VALUE',
-    ),
-    SubscriptionPlan(
       id: 'pro_monthly',
       name: 'Monthly',
-      price: r'$4.99',
+      price: '₹499',
       priceNote: 'per month',
-      subtitle: 'Flexible',
-      ctaLabel: r'Get Pro, $4.99 / month',
-      billingNote: r'Cancel anytime. Billed $4.99 monthly.',
+      subtitle: 'Billed monthly',
+      ctaLabel: 'Get Pro, ₹499 / month',
+      billingNote: 'Billed ₹499 monthly.',
+    ),
+    SubscriptionPlan(
+      id: 'pro_yearly',
+      name: 'Yearly',
+      price: '₹10,788',
+      priceNote: '₹899 / month',
+      subtitle: 'Billed yearly',
+      ctaLabel: 'Get Pro, ₹10,788 / year',
+      billingNote: 'Billed ₹10,788 yearly.',
     ),
   ];
 
   static const defaultBenefits = [
-    SubscriptionBenefit(Icons.all_inclusive, 'Unlimited AI tutor sessions'),
-    SubscriptionBenefit(Icons.menu_book_outlined, 'Every course, all levels'),
-    SubscriptionBenefit(
-        Icons.workspace_premium_outlined, 'Certificates on completion'),
-    SubscriptionBenefit(Icons.download_outlined, 'Learn offline, anywhere'),
+    SubscriptionBenefit(Icons.menu_book_outlined, 'Unlocks all courses'),
+    SubscriptionBenefit(Icons.groups_outlined, '1-2-1 mentor access'),
   ];
 
   @override
@@ -136,7 +134,7 @@ class _SubscriptionPageState extends State<SubscriptionPage> {
                     const _Headline(),
                     const SizedBox(height: 16),
                     Text(
-                      'Every course, your AI tutor on call, and certificates you can share.',
+                      'Unlock every course and get 1-2-1 time with a mentor.',
                       style: GoogleFonts.robotoMono(
                         fontSize: 15,
                         height: 1.6,
